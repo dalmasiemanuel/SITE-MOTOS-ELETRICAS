@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "@fontsource/poppins/400.css";
+@import "@fontsource/poppins/500.css";
+@import "@fontsource/poppins/600.css";
+@import "@fontsource/poppins/700.css";
+
+@theme {
+  --font-sans: 'Poppins', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --color-foston-green: #25D366;
+  --color-off-black: #0a0a0a;
+  --color-surface: #fdfdfd;
+  --color-surface-elevated: #ffffff;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-off-black);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
