@@ -24,7 +24,7 @@ export default function Nav() {
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <span className="font-black text-xl tracking-tighter">ECHOSHOPBRASIL</span>
-            <span className="bg-black text-white text-[10px] px-1.5 py-0.5 font-mono uppercase tracking-widest rounded-sm">FOSTON X15 MAX</span>
+            <span className="bg-black text-white text-[10px] px-1.5 py-0.5 font-mono uppercase tracking-widest rounded-sm">ATENDIMENTO 100% HUMAZINADO</span>
           </Link>
           
           <button 

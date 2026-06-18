@@ -7,9 +7,9 @@ export default function Footer() {
           <span className="text-sm text-gray-500">Distribuído por Topdek Informática no Paraguai.</span>
         </div>
         <div className="flex gap-6 text-sm font-medium text-gray-600">
-          <a href="#" className="hover:text-foston-green transition-colors">Facebook</a>
-          <a href="#" className="hover:text-foston-green transition-colors">Instagram</a>
-          <a href="#" className="hover:text-foston-green transition-colors">WhatsApp</a>
+          <a href="https://web.facebook.com/marketplace/profile/100007183565517/?referralSurface=messenger_banner&referralCode=4&_rdc=1&_rdr#" target="_blank" rel="noreferrer"className="hover:text-foston-green transition-colors">Facebook</a>
+          <a href="https://www.instagram.com/ecoshopbrasil/" target="_blank" rel="noreferrer" className="hover:text-foston-green transition-colors">Instagram</a>
+          <a href="https://api.whatsapp.com/send?phone=5544984078310" target="_blank" rel="noreferrer" className="hover:text-foston-green transition-colors">WhatsApp</a>
         </div>
       </div>
     </footer>

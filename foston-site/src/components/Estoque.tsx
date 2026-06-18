@@ -24,8 +24,24 @@ export default function Estoque() {
       imagem: "/assets/foston-x17.jpeg",
       preco: "R$ 5.399,00",
       tags: ["1000W", "NFC", "LANÇAMENTO"]
+    },
+    {
+      id: 4,
+      titulo: "Moto elétrica Foston X200",
+      descricao: "Moto elétrica infantil nova sem uso | Bateria de Lítio | Luzes e sons | 5 a 12 anos | Motor brushless | Até 50kg | Suspensão invertida | Freio a disco | Autonomia de mais de 20km.",
+      imagem: "/assets/foston-x200.jpg",
+      preco: "R$ 1.700,00",
+      tags: ["Infantil", "Bateria de Lítio", "Brushless"]
+    },
+    {
+      id: 5, 
+      titulo: "Moto elétrica Foston x15",
+      descricao: "1000W | Bateria removível de Lítio (mais segura e duradoura) | Carregador incluso | Chave NFC | Farol LED | Alarme e trava de segurança | 3 Modos de pilotagem | Autonomia de 45-50km | Velocidade limitada 32km/h | Não precisa de habilitação e não paga IPVA | Entrega grátis em Maringá e Sarandi.",
+      imagem: "/assets/foston-x15.jpeg", 
+      preco: "R$ 5.000,00",
+      tags: ["1000W", "NFC", "LANÇAMENTO"]
     }
-  ];
+  ];  
 
   return (
     <section className="pt-32 pb-24 min-h-[80vh] bg-surface">

@@ -62,9 +62,19 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
               className="mt-10 flex flex-col sm:flex-row gap-4"
             >
-              <button className="bg-foston-green hover:bg-[#20bd54] text-white px-8 py-4 rounded-full font-semibold transition-all hover:-translate-y-[1px] active:scale-[0.98] shadow-lg shadow-foston-green/20">
-                Falar com Atendimento
-              </button>
+            <button
+              onClick={() =>
+              window.open(
+             `https://api.whatsapp.com/send?phone=5544984078310&text=${encodeURIComponent(
+              "Olá! Quero fazer orçamento para uma moto elétrica Foston."
+            )}`,
+              "_blank"
+                )
+            }
+  className="bg-foston-green hover:bg-[#20bd54] text-white px-8 py-4 rounded-full font-semibold transition-all hover:-translate-y-[1px] active:scale-[0.98] shadow-lg shadow-foston-green/20"
+>
+  Fazer Orçamento
+</button> 
               <Link to="/estoque" className="bg-black hover:bg-gray-900 text-white px-8 py-4 rounded-full font-semibold transition-all hover:-translate-y-[1px] active:scale-[0.98] text-center flex items-center justify-center">
                 Estoque Disponível
               </Link>
