@@ -1,5 +1,5 @@
 export default function Estoque() {
-  // Lista de motos em estoque. Você pode adicionar novas motos simplesmente copiando um bloco e alterando os dados.
+  // Lista de motos em estoque. Sendo possivel adicionar novas motos simplesmente copiando um bloco e alterando os dados.
   const motos = [
     {
       id: 1,
